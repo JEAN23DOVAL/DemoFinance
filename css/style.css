@@ -26,6 +26,12 @@
   --radius: 1rem;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: var(--font-main);
@@ -35,7 +41,7 @@ body {
    PREHEADER STICKY
 ================================= */
 .preheader {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 999;
   display: flex;
