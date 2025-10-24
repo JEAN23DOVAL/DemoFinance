@@ -1,0 +1,61 @@
+.hero-services {
+  background: linear-gradient(to right, var(--color-bg-preheader), var(--color-accent));
+  color: var(--color-text-light);
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.services-detail__grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.service-item {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+  padding: 2rem 1rem;
+  transition: transform var(--transition-fast);
+}
+
+.service-item i {
+  color: var(--color-accent);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-item:hover {
+  transform: translateY(-8px);
+}
+
+/* Simulateurs */
+.simulateur {
+  background: #f9fafb;
+  padding: 3rem 1rem;
+  border-radius: var(--radius);
+  margin: 2rem 1rem;
+  text-align: center;
+}
+
+.simulateur form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.simulateur input {
+  padding: 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid #ddd;
+  font-family: var(--font-main);
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-dark);
+}
